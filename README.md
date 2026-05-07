@@ -41,8 +41,8 @@ I build autonomous AI systems for datacenter-scale infrastructure — LLM-orches
 | Project | Description | Key Metrics | Stack |
 |---------|-------------|-------------|-------|
 | [kube_q](https://github.com/MSKazemi/kube_q) | CLI + Python SDK for KubeIntellect | Streaming responses, Rich TUI | Python |
-| [mcp-zenodo](https://github.com/MSKazemi/mcp-zenodo) | MCP server exposing Zenodo to LLM tool calls | MCP-compliant | Python, FastAPI |
-| [ExaBench-QA](https://github.com/MSKazemi/ExaBench-QA) | Benchmark for evaluating LLM agents in HPC environments | Deterministic snapshots, trace scoring | Python, Jupyter |
+| NovaFabric | Local-first AI Asset Registry with eval-gated agent promotion and OTel tracing | 8 CLI commands, full lifecycle | Python, Pydantic, SQLite |
+| [AOBench](https://github.com/MSKazemi/aobench) | Agent Operations Benchmark — HPC agent evaluation with role-aware, trace-based scoring | 80 tasks, 26 environments | Python, LLM Eval, MCP |
 | [GRAAFE](https://github.com/MSKazemi/GRAAFE) | Graph anomaly anticipation for exascale HPC | AUC 0.91, 49 racks, ~1000 nodes | Python, GCN |
 | [HazardNet](https://github.com/MSKazemi/HazardNet) | Thermal hazard prediction for datacenters | <100ms inference, <0.2% CPU | Python, TCN/LSTM |
 | [AI4HPC](https://github.com/MSKazemi/AI4HPC) | AIOps pipeline: Prometheus → Kubeflow → MLflow | F1 0.99, ~87ms latency | Python, Kubeflow |
