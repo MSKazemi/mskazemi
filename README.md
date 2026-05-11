@@ -1,55 +1,62 @@
 # Mohsen Seyedkazemi Ardebili
 
-AI systems engineer · Platform architect · HPC researcher
+AI systems engineer · Platform architect · HPC researcher · PhD
 
-I build open-source infrastructure for AI, Kubernetes, cloud, HPC, and research-to-production systems.
+I build autonomous AI systems that act on infrastructure — not just explain it.
+Platform engineering and research at the University of Bologna: MLOps, AIOps, Kubernetes-native agents, anomaly detection on Tier-0 HPC clusters.
+
+→ **[mskazemi.github.io](https://mskazemi.github.io)**
 
 ---
 
-## What I'm working on
+## Featured Projects
 
 **[KubeIntellect](https://kubeintellect.com)** — Autonomous Kubernetes operations system.
-Not a chatbot. It plans, executes, and fixes cluster issues end-to-end.
-93% tool synthesis success rate · 100% reliability across 200 queries · Full K8s API coverage.
+LLM-orchestrated multi-agent framework for root cause analysis, diagnosis, and HITL-gated cluster actions across the full K8s API surface.
+93% tool synthesis success · 100% reliability / 200+ queries
 
 ```bash
 pip install kube-q
 kq "why is my payment service crashing?"
 ```
 
-**[AOBench](https://github.com/MSKazemi/AOBench)** — Benchmark framework for evaluating AI agents in HPC.
-Role-aware, tool-using, permission-aware evaluation of agent systems across HPC operational tasks.
-Reproducible, deterministic snapshot-based evaluation with taxonomies, datasets, and JSON schemas.
+**[AOBench](https://github.com/MSKazemi/aobench)** — Agent Operations Benchmark for HPC.
+Role-aware, permission-enforced, trace-based evaluation of AI agents on HPC operational tasks.
+80 tasks · 26 snapshot environments · No live cluster required.
+
+**[GRAAFE](https://github.com/MSKazemi/GRAAFE)** — Graph anomaly anticipation for exascale HPC.
+Topology-aware node failure prediction on Tier-0 CINECA supercomputer (Marconi100). AUC 0.91 · 1000+ production nodes.
+
+**[HazardNet](https://github.com/MSKazemi/HazardNet)** — Thermal hazard prediction for datacenters.
+Multi-modal deep learning for sub-100ms thermal failure forecasting. F1 0.99 · <100ms inference.
 
 ---
 
-## Projects
+## Research
 
-| | Project | What it does |
-|---|---------|-------------|
-| 🔧 | [**kube_q**](https://github.com/MSKazemi/kube_q) | CLI for KubeIntellect — persistent sessions, full-text search, conversation branching |
-| 📊 | [**AOBench**](https://github.com/MSKazemi/AOBench) | Benchmark suite for role-aware AI agents in HPC environments — role-aware, tool-using, permission-aware |
-| 📐 | [**novafabric/soa2prod**](https://github.com/novafabric/soa2prod) | Evidence-driven method for converting research into production specs |
+179 citations · h-index 7 · 22 publications · [Google Scholar ↗](https://scholar.google.com/citations?user=xP64pZsAAAAJ)
 
----
+EU Projects: DECICE · Graph-Massivizer · EUROPEAN PILOT · REGALE · EPI SGA1 · SEANERGYS
 
-## Background
-
-- Researcher at **University of Bologna** — AI for HPC, green computing, MLOps, cloud-native systems
-- Published research on Kubernetes AI agents, HPC energy optimization, and ML-driven scheduling
-- 10+ years across DevOps, platform engineering, cloud infrastructure, and systems research
-- Previously: HPC systems, SCADA/industrial automation, network security
+| Paper | Venue | Year |
+|-------|-------|------|
+| [KubeIntellect: A Modular LLM-Orchestrated Agent Framework for Kubernetes Management](https://arxiv.org/abs/2509.02449) | arXiv | 2025 |
+| [M100 ExaData: Data Collection on CINECA's Marconi100 Tier-0 Supercomputer](https://www.nature.com/articles/s41597-023-02174-3) | Nature Scientific Data | 2023 |
+| PM100: Job Power Consumption Dataset of a Large-Scale HPC System | SC'23 Workshops | 2023 |
+| [GRAAFE: Graph Anomaly Anticipation for Exascale HPC Systems](https://github.com/MSKazemi/GRAAFE) | FGCS | 2024 |
+| HazardNet: Thermal Hazard Prediction Framework for Datacenters | FGCS | 2024 |
 
 ---
 
-## Focus areas
+## Stack
 
-Kubernetes · AI agents · MLOps · Platform engineering · HPC · Green computing · Observability · Research-to-production
+**Platform:** Kubernetes · Helm · Terraform · Azure · Docker · Linux  
+**AI/ML:** Python · PyTorch · LangGraph · FastAPI · Kubeflow · MLflow  
+**HPC:** Slurm · Apptainer · MPI · OpenMP  
+**Observability:** Prometheus · Grafana · OpenTelemetry · Loki
 
 ---
 
 ## Links
 
-- KubeIntellect: [kubeintellect.com](https://kubeintellect.com)
-- NovaFabric lab: [github.com/novafabric](https://github.com/novafabric)
-- Email: mohsen.seyedkazemi@gmail.com
+[mskazemi.github.io](https://mskazemi.github.io) · [kubeintellect.com](https://kubeintellect.com) · [LinkedIn](https://linkedin.com/in/mskazemi) · [Scholar](https://scholar.google.com/citations?user=xP64pZsAAAAJ) · mohsen.seyedkazemi@gmail.com
