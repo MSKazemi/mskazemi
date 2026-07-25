@@ -26,10 +26,10 @@ I build autonomous AI systems that act on infrastructure — not just explain it
 
 > LLM-orchestrated multi-agent framework for root cause analysis, diagnosis, and human-gated cluster operations across the full Kubernetes API surface.
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/MSKazemi/kubeintellect)
-[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)](https://github.com/MSKazemi/kubeintellect)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://github.com/MSKazemi/kubeintellect)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)](https://github.com/MSKazemi/kubeintellect)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/kubeintellect/kubeintellect)
+[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)](https://github.com/kubeintellect/kubeintellect)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://github.com/kubeintellect/kubeintellect)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)](https://github.com/kubeintellect/kubeintellect)
 
 - LangGraph FSM supervisor with PostgreSQL checkpoints and human-in-the-loop approval gates
 - Dynamic Code-Generator agent: sandboxed tool synthesis and validation at runtime
