@@ -42,6 +42,7 @@ I build autonomous AI systems that act on infrastructure — not just explain it
 
 | Project | Description | Key Metrics | Stack |
 |---------|-------------|-------------|-------|
+| [YazSes](https://github.com/MSKazemi/yazses) | Offline, privacy-first voice dictation for Linux, macOS & Windows — hold a key, speak, and on-device speech-to-text types into any app. Also transcribes recordings and captures meetings with speaker labels. | 2.6–4.8% WER · real-time on CPU · 100% offline | Python, faster-whisper, ONNX |
 | [kube_q](https://github.com/MSKazemi/kube_q) | CLI + Python SDK for KubeIntellect | Streaming responses, Rich TUI | Python |
 | [AOBench](https://github.com/MSKazemi/aobench) | Agent Operations Benchmark — role-aware, permission-enforced, trace-based HPC agent evaluation | 80 tasks · 26 environments | Python, LLM Eval, MCP |
 | [GRAAFE](https://github.com/MSKazemi/GRAAFE) | Graph anomaly anticipation for exascale HPC | AUC 0.91 · 1000+ nodes | Python, GCN |
