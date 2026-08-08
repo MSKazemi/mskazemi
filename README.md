@@ -24,7 +24,7 @@ I build autonomous AI systems that act on infrastructure — not just explain it
 
 ### [KubeIntellect](https://kubeintellect.com) — Autonomous Kubernetes Operations
 
-> LLM-orchestrated multi-agent framework for root cause analysis, diagnosis, and human-gated cluster operations across the full Kubernetes API surface.
+> Ask your Kubernetes cluster questions in plain English. It gathers live evidence from tools such as kubectl, Prometheus and Loki, and pauses for explicit approval before destructive operations.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/MSKazemi/kubeintellect)
 [![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)](https://github.com/MSKazemi/kubeintellect)
@@ -32,9 +32,9 @@ I build autonomous AI systems that act on infrastructure — not just explain it
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)](https://github.com/MSKazemi/kubeintellect)
 
 - LangGraph FSM supervisor with PostgreSQL checkpoints and human-in-the-loop approval gates
-- Dynamic Code-Generator agent: sandboxed tool synthesis and validation at runtime
+- Dynamic Code-Generator agent: writes and validates new tools at runtime, with registration routed through human approval
 - Modular domain agents: logs, metrics, RBAC, lifecycle, scheduling, exec, proxy
-- **93% tool synthesis success rate · 100% reliability across 200+ queries**
+- **Peer-reviewed** — *Journal of Grid Computing* (2026), [10.1007/s10723-026-09837-6](https://doi.org/10.1007/s10723-026-09837-6)
 
 ---
 
@@ -42,7 +42,7 @@ I build autonomous AI systems that act on infrastructure — not just explain it
 
 | Project | Description | Key Metrics | Stack |
 |---------|-------------|-------------|-------|
-| [YazSes](https://github.com/MSKazemi/yazses) | Offline, privacy-first voice dictation for Linux, macOS & Windows — hold a key, speak, and on-device speech-to-text types into any app. Also transcribes recordings and captures meetings with speaker labels. | 2.6–4.8% WER · real-time on CPU · 100% offline | Python, faster-whisper, ONNX |
+| [YazSes](https://github.com/MSKazemi/yazses) | Free, open-source voice dictation for Linux, macOS & Windows — hold a key, speak, release, and on-device speech-to-text types into any app. Also transcribes recordings and captures meetings with speaker labels. | Offline by default · CPU-only, no GPU · Apache-2.0 | Python, faster-whisper |
 | [kube_q](https://github.com/MSKazemi/kube_q) | CLI + Python SDK for KubeIntellect | Streaming responses, Rich TUI | Python |
 | [AOBench](https://github.com/MSKazemi/aobench) | Agent Operations Benchmark — role-aware, permission-enforced, trace-based HPC agent evaluation | 80 tasks · 26 environments | Python, LLM Eval, MCP |
 | [GRAAFE](https://github.com/MSKazemi/GRAAFE) | Graph anomaly anticipation for exascale HPC | AUC 0.91 · 1000+ nodes | Python, GCN |
