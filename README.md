@@ -89,6 +89,12 @@ I hold an EU long-term residence permit issued by Italy, so EU engagements need 
 
 **EU projects:** SEANERGYS (EuroHPC-JU — MLOps platform architect & lead developer, WP task lead) · DECICE · Graph-Massivizer · EUROPEAN PILOT · REGALE · EPI SGA1
 
+**Impact** *(Google Scholar, read 2026-08-10 — see the live profile for current figures)*:
+**218 citations · h-index 8 · i10-index 7**, across 17 published or accepted peer-reviewed works.
+The trend is the interesting part: 9 citations in 2022, 15 in 2023, 24 in 2024, 76 in 2025, and 65
+in the first seven months of 2026 — more in the last twenty months than in the preceding eighteen
+years combined.
+
 ### Selected Publications
 
 | Title | Venue | Year |
