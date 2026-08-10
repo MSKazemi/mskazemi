@@ -9,7 +9,7 @@
   <a href="https://mskazemi.com/"><img src="https://img.shields.io/badge/Website-mskazemi.com-222222?style=flat&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <a href="https://mskazemi.com/hire/"><img src="https://img.shields.io/badge/Available%20for%20freelance-remote%20·%20EU-3FD79A?style=flat" alt="Available for freelance work, remote across the EU" /></a>
   <a href="https://linkedin.com/in/mskazemi"><img src="https://img.shields.io/badge/LinkedIn-mskazemi-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://scholar.google.com/citations?user=xP64pZsAAAAJ"><img src="https://img.shields.io/badge/Google-Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
+  <a href="https://scholar.google.com/citations?user=xP64pZsAAAAJ"><img src="https://img.shields.io/badge/Scholar-218%20citations%20·%20h--index%208-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar: 218 citations, h-index 8" /></a>
   <a href="https://orcid.org/0000-0002-1166-6559"><img src="https://img.shields.io/badge/ORCID-0000--0002--1166--6559-A6CE39?style=flat&logo=orcid&logoColor=white" alt="ORCID" /></a>
   <a href="https://arxiv.org/abs/2509.02449"><img src="https://img.shields.io/badge/arXiv-2509.02449-b31b1b?style=flat&logo=arxiv&logoColor=white" alt="arXiv" /></a>
 </p>
@@ -59,12 +59,13 @@ afterwards that it was right to?**
 
 | Project | What it is | Evidence | Stack |
 |---------|------------|----------|-------|
-| [YazSes](https://github.com/MSKazemi/yazses) | Free, open-source voice dictation for Linux, macOS & Windows — hold a key, speak, release, and on-device speech-to-text types into any app. Also transcribes recordings and captures meetings with speaker labels. | Fully offline by default · CPU-only, no GPU · Apache-2.0 · outside contributors merged | Python, faster-whisper |
-| [NovaFabric](https://github.com/MSKazemi/novafabric) | The time machine for AI systems: capture, replay, diff and audit any AI-agent or HPC run, with no code changes. Self-hosted. | Open source · [novafabric.ai](https://novafabric.ai) · on PyPI | Python, OpenTelemetry |
-| [kube_q](https://github.com/MSKazemi/kube_q) | CLI + Python SDK for KubeIntellect | Streaming responses, Rich TUI · on PyPI | Python |
-| [AOBench](https://github.com/MSKazemi/aobench) | Agent Operations Benchmark — role-aware, permission-enforced, trace-based evaluation of LLM agents on real HPC operations work | 80 tasks · 26 environments · paper under review | Python, LLM Eval, MCP |
-| [GRAAFE](https://github.com/MSKazemi/GRAAFE) | Graph anomaly anticipation for exascale HPC | Published, *FGCS* 2024 | Python, GCN |
-| [HazardNet](https://github.com/MSKazemi/HazardNet) | Thermal hazard prediction for datacenters | Published, *FGCS* 2024 | Python, TCN/LSTM |
+| [YazSes](https://github.com/MSKazemi/yazses) | Free, open-source voice dictation for Linux, macOS & Windows — hold a key, speak, release, and on-device speech-to-text types into any app. Also transcribes recordings and captures meetings with speaker labels. | v2.17.0 · fully offline **by default** · CPU-only, no GPU · Apache-2.0 · 23 releases, 10 contributors | Python, faster-whisper |
+| [NovaFabric](https://github.com/MSKazemi/novafabric) | The time machine for AI systems: capture, replay, diff and audit any AI-agent or HPC run, with no code changes. Self-hosted. | v0.101.0 · 36 releases · Apache-2.0 · **experimental** · [novafabric.ai](https://novafabric.ai) | Python, OpenTelemetry |
+| [kube-q](https://github.com/MSKazemi/kubeintellect/tree/main/v4/packages/kube-q) | CLI + Python SDK for KubeIntellect — `pip install kube-q` | v1.5.0 · streaming responses, Rich TUI · AGPL-3.0 | Python |
+| [AOBench](https://github.com/MSKazemi/aobench) | Agent Operations Benchmark — role-aware, permission-enforced, trace-based evaluation of LLM agents on real HPC operations work. A policy violation hard-fails the task, however correct the answer looked. | 88 tasks (10 categories × 5 roles) · 29 environment bundles, 6 rebuilt from real Marconi100 telemetry · 16 model systems evaluated · [archived with a DOI](https://doi.org/10.5281/zenodo.21854863) · paper under review | Python, LLM Eval, MCP, SLURM |
+| [ExaMLOps](https://github.com/MSKazemi/ExaMLOps) | End-to-end MLOps platform for HPC workload management, built for the EuroHPC **SEANERGYS** project. Model-agnostic and multi-tenant: any of the sixteen consortium partners registers a model and the platform trains, versions, governs and serves it. Architect, lead designer and main developer. | In production at LuxProvide (MeluXina) · train → version → govern → serve, behind a sysadmin approval gate | Prefect, MLflow, Ray Serve, Slurm, FastAPI, React 19 |
+| [GRAAFE](https://github.com/MSKazemi/GRAAFE) | Graph neural network that anticipates compute-node anomalies on exascale HPC, trained offline and served online through a Kubeflow pipeline on live telemetry | Published, *FGCS* 2024 · 23 citations · CINECA Marconi100 | Python, GNN, Kubeflow |
+| [HazardNet](https://github.com/MSKazemi/HazardNet) | Thermal-hazard prediction for datacenters, over a year of temperature and power telemetry from 3,312 nodes of CINECA's Marconi A2. Six-hour horizon, chosen with the facility manager | Published, *FGCS* 2024 · [1 GB dataset on Zenodo](https://doi.org/10.5281/zenodo.10050368), CC BY 4.0 | Python, TCN/LSTM/SVM |
 
 ---
 
@@ -101,10 +102,17 @@ years combined.
 |-------|-------|------|
 | [KubeIntellect: A Modular LLM-Orchestrated Agent Framework for Kubernetes Management](https://doi.org/10.1007/s10723-026-09837-6) | *Journal of Grid Computing* | 2026 |
 | [M100 ExaData: A Data Collection Campaign on CINECA's Marconi100 Tier-0 Supercomputer](https://www.nature.com/articles/s41597-023-02174-3) | *Nature Scientific Data* | 2023 |
-| PM100: A Job Power Consumption Dataset of a Large-Scale Production HPC System | SC'23 Workshops | 2023 |
-| [GRAAFE: Graph Anomaly Anticipation Framework for Exascale HPC Systems](https://github.com/MSKazemi/GRAAFE) | *FGCS* | 2024 |
-| HazardNet: Thermal Hazard Prediction Framework for Datacenters | *FGCS* | 2024 |
-| Multi-level Anomaly Prediction in Tier-0 Datacenter | *ACM Computing Frontiers* | 2022 |
+| [PM100: A Job Power Consumption Dataset of a Large-Scale Production HPC System](https://doi.org/10.1145/3624062.3624263) | SC'23 Workshops | 2023 |
+| [GRAAFE: GRaph Anomaly Anticipation Framework for Exascale HPC Systems](https://doi.org/10.1016/j.future.2024.06.032) | *FGCS* | 2024 |
+| [HazardNet: A Thermal Hazard Prediction Framework for Datacenters](https://doi.org/10.1016/j.future.2024.01.031) | *FGCS* | 2024 |
+| [Elevating Datacenter Resilience with ThermADNet: A Thermal Anomaly Detection System](https://doi.org/10.1016/j.future.2025.108311) | *FGCS* | 2026 |
+| [Multi-level Anomaly Prediction in Tier-0 Datacenter](https://doi.org/10.1145/3528416.3530864) | *ACM Computing Frontiers* | 2022 |
+
+**Open data.** I co-author three CC BY 4.0 datasets from CINECA's Tier-0 supercomputers — roughly
+26 GB in total: [M100 ExaData](https://doi.org/10.5281/zenodo.7541722) (24.8 GB of Marconi100
+telemetry), the [HazardNet thermal dataset](https://doi.org/10.5281/zenodo.10050368) (3,312 nodes,
+first author) and [PM100](https://doi.org/10.5281/zenodo.10127767) (per-job power). Free to download,
+commercial use permitted.
 
 [Full list, with current citation counts → Google Scholar](https://scholar.google.com/citations?user=xP64pZsAAAAJ) · [ORCID](https://orcid.org/0000-0002-1166-6559) · [dblp](https://dblp.org/pid/282/6179) · [OpenAlex](https://openalex.org/A5013086540)
 
