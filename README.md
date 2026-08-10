@@ -43,7 +43,7 @@ I build autonomous AI systems that act on infrastructure — not just explain it
 | Project | Description | Key Metrics | Stack |
 |---------|-------------|-------------|-------|
 | [YazSes](https://github.com/MSKazemi/yazses) | Free, open-source voice dictation for Linux, macOS & Windows — hold a key, speak, release, and on-device speech-to-text types into any app. Also transcribes recordings and captures meetings with speaker labels. | Offline by default · CPU-only, no GPU · Apache-2.0 | Python, faster-whisper |
-| [kube_q](https://github.com/MSKazemi/kube_q) | CLI + Python SDK for KubeIntellect | Streaming responses, Rich TUI | Python |
+| [kube-q](https://github.com/MSKazemi/kubeintellect/tree/main/v4/packages/kube-q) | CLI + Python SDK for KubeIntellect — `pip install kube-q` | Streaming responses, Rich TUI · AGPL-3.0 | Python |
 | [AOBench](https://github.com/MSKazemi/aobench) | Agent Operations Benchmark — role-aware, permission-enforced, trace-based HPC agent evaluation | 80 tasks · 26 environments | Python, LLM Eval, MCP |
 | [GRAAFE](https://github.com/MSKazemi/GRAAFE) | Graph anomaly anticipation for exascale HPC | AUC 0.91 · 1000+ nodes | Python, GCN |
 | [HazardNet](https://github.com/MSKazemi/HazardNet) | Thermal hazard prediction for datacenters | F1 0.99 · <100ms inference | Python, TCN/LSTM |
