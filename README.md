@@ -1,38 +1,55 @@
 <h1 align="center">Mohsen Seyedkazemi Ardebili</h1>
 
 <p align="center">
-  <b>Platform Engineer · AIOps · MLOps · LLM-Orchestrated Infrastructure</b><br/>
+  <b>AI Infrastructure · AI SRE &amp; AIOps · MLOps · HPC</b><br/>
   Research Fellow, University of Bologna · Bologna, Italy
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/mskazemi"><img src="https://img.shields.io/badge/LinkedIn-mskazemi-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://scholar.google.com/citations?user=xP64pZsAAAAJ"><img src="https://img.shields.io/badge/Scholar-179%20citations%20·%20h--index%207-4285F4?style=flat&logo=googlescholar&logoColor=white" /></a>
-  <a href="https://orcid.org/0000-0002-1166-6559"><img src="https://img.shields.io/badge/ORCID-0000--0002--1166--6559-A6CE39?style=flat&logo=orcid&logoColor=white" /></a>
-  <a href="https://kubeintellect.com"><img src="https://img.shields.io/badge/KubeIntellect-kubeintellect.com-3E0097?style=flat" /></a>
-  <a href="https://arxiv.org/abs/2509.02449"><img src="https://img.shields.io/badge/arXiv-2509.02449-b31b1b?style=flat&logo=arxiv&logoColor=white" /></a>
-  <a href="https://mskazemi.github.io"><img src="https://img.shields.io/badge/Website-mskazemi.github.io-222222?style=flat&logo=githubpages&logoColor=white" /></a>
+  <a href="https://mskazemi.com/"><img src="https://img.shields.io/badge/Website-mskazemi.com-222222?style=flat&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://mskazemi.com/hire/"><img src="https://img.shields.io/badge/Available%20for%20freelance-remote%20·%20EU-3FD79A?style=flat" alt="Available for freelance work, remote across the EU" /></a>
+  <a href="https://linkedin.com/in/mskazemi"><img src="https://img.shields.io/badge/LinkedIn-mskazemi-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://scholar.google.com/citations?user=xP64pZsAAAAJ"><img src="https://img.shields.io/badge/Google-Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
+  <a href="https://orcid.org/0000-0002-1166-6559"><img src="https://img.shields.io/badge/ORCID-0000--0002--1166--6559-A6CE39?style=flat&logo=orcid&logoColor=white" alt="ORCID" /></a>
+  <a href="https://arxiv.org/abs/2509.02449"><img src="https://img.shields.io/badge/arXiv-2509.02449-b31b1b?style=flat&logo=arxiv&logoColor=white" alt="arXiv" /></a>
 </p>
 
 ---
 
-I build autonomous AI systems that act on infrastructure — not just explain it. Seven years of hands-on ops in mission-critical industrial environments before a PhD in HPC systems gives me a different lens: I care about correctness, observability, and production trust.
+I build autonomous AI systems that **act** on infrastructure — not just explain it.
+
+I came to this the unusual way round. Before the PhD I spent seven years as the IT and network
+administrator of a combined-cycle power plant of more than 1,000 MW: no staging environment, and a
+bad change measured in megawatts rather than in error budgets. Then a doctorate in high-performance
+computing at the University of Bologna, and since then research and platform engineering on
+EuroHPC-funded projects.
+
+That background is why my systems ask before they act. Everything below is one attempt at the same
+question: **how much of an operator's judgement can a machine take over, and how do you prove
+afterwards that it was right to?**
+
+📍 Bologna, Italy · remote across the EU &nbsp;·&nbsp; 🧭 [mskazemi.com](https://mskazemi.com/) &nbsp;·&nbsp; 💼 [available for freelance work](https://mskazemi.com/hire/)
 
 ---
 
 ## Featured Project
 
-### [KubeIntellect](https://kubeintellect.com) — Autonomous Kubernetes Operations
+### [KubeIntellect](https://github.com/MSKazemi/kubeintellect) — a human-governed AI SRE for Kubernetes
 
-> Ask your Kubernetes cluster questions in plain English. It gathers live evidence from tools such as kubectl, Prometheus and Loki, and pauses for explicit approval before destructive operations.
+> Ask your Kubernetes cluster a question in plain English. It gathers live evidence from tools such
+> as kubectl, Prometheus and Loki, works out what is actually wrong — and pauses for your explicit
+> approval before it changes anything.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/MSKazemi/kubeintellect)
 [![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)](https://github.com/MSKazemi/kubeintellect)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://github.com/MSKazemi/kubeintellect)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)](https://github.com/MSKazemi/kubeintellect)
 
+- It **executes** cluster operations, behind a human approval gate — that is the whole point, and it
+  is what separates it from a chat window next to a terminal
 - LangGraph FSM supervisor with PostgreSQL checkpoints and human-in-the-loop approval gates
-- Dynamic Code-Generator agent: writes and validates new tools at runtime, with registration routed through human approval
+- Dynamic Code-Generator agent: writes and validates new tools at runtime, with registration routed
+  through human approval
 - Modular domain agents: logs, metrics, RBAC, lifecycle, scheduling, exec, proxy
 - **Peer-reviewed** — *Journal of Grid Computing* (2026), [10.1007/s10723-026-09837-6](https://doi.org/10.1007/s10723-026-09837-6)
 
@@ -40,13 +57,29 @@ I build autonomous AI systems that act on infrastructure — not just explain it
 
 ## Other Projects
 
-| Project | Description | Key Metrics | Stack |
-|---------|-------------|-------------|-------|
-| [YazSes](https://github.com/MSKazemi/yazses) | Free, open-source voice dictation for Linux, macOS & Windows — hold a key, speak, release, and on-device speech-to-text types into any app. Also transcribes recordings and captures meetings with speaker labels. | Offline by default · CPU-only, no GPU · Apache-2.0 | Python, faster-whisper |
-| [kube_q](https://github.com/MSKazemi/kube_q) | CLI + Python SDK for KubeIntellect | Streaming responses, Rich TUI | Python |
-| [AOBench](https://github.com/MSKazemi/aobench) | Agent Operations Benchmark — role-aware, permission-enforced, trace-based HPC agent evaluation | 80 tasks · 26 environments | Python, LLM Eval, MCP |
-| [GRAAFE](https://github.com/MSKazemi/GRAAFE) | Graph anomaly anticipation for exascale HPC | AUC 0.91 · 1000+ nodes | Python, GCN |
-| [HazardNet](https://github.com/MSKazemi/HazardNet) | Thermal hazard prediction for datacenters | F1 0.99 · <100ms inference | Python, TCN/LSTM |
+| Project | What it is | Evidence | Stack |
+|---------|------------|----------|-------|
+| [YazSes](https://github.com/MSKazemi/yazses) | Free, open-source voice dictation for Linux, macOS & Windows — hold a key, speak, release, and on-device speech-to-text types into any app. Also transcribes recordings and captures meetings with speaker labels. | Fully offline by default · CPU-only, no GPU · Apache-2.0 · outside contributors merged | Python, faster-whisper |
+| [NovaFabric](https://github.com/MSKazemi/novafabric) | The time machine for AI systems: capture, replay, diff and audit any AI-agent or HPC run, with no code changes. Self-hosted. | Open source · [novafabric.ai](https://novafabric.ai) · on PyPI | Python, OpenTelemetry |
+| [kube_q](https://github.com/MSKazemi/kube_q) | CLI + Python SDK for KubeIntellect | Streaming responses, Rich TUI · on PyPI | Python |
+| [AOBench](https://github.com/MSKazemi/aobench) | Agent Operations Benchmark — role-aware, permission-enforced, trace-based evaluation of LLM agents on real HPC operations work | 80 tasks · 26 environments · paper under review | Python, LLM Eval, MCP |
+| [GRAAFE](https://github.com/MSKazemi/GRAAFE) | Graph anomaly anticipation for exascale HPC | Published, *FGCS* 2024 | Python, GCN |
+| [HazardNet](https://github.com/MSKazemi/HazardNet) | Thermal hazard prediction for datacenters | Published, *FGCS* 2024 | Python, TCN/LSTM |
+
+---
+
+## Available for freelance work
+
+Remote across the EU, in three areas — each starting with a fixed-price audit so you can see the
+work before committing to a project:
+
+- **Kubernetes reliability & AIOps** — health-checks, observability, hardening, incident root-cause analysis
+- **MLOps & ML in production** — registry, serving, drift detection, governed retraining, monitoring
+- **Production LLM agents** — tool boundaries, scoped RBAC, human-in-the-loop safety, tracing, audit trails
+
+I hold an EU long-term residence permit issued by Italy, so EU engagements need no visa sponsorship.
+
+**→ [Engagements, rates and how it works](https://mskazemi.com/hire/)**
 
 ---
 
@@ -54,26 +87,20 @@ I build autonomous AI systems that act on infrastructure — not just explain it
 
 **PhD:** Design, Analysis, and Management of High-Performance Computing Systems · University of Bologna (2018–2022)
 
-**EU Projects:** DECICE · Graph-Massivizer · EUROPEAN PILOT · REGALE · EPI SGA1 · SEANERGYS
-
-**Scholar:**
-
-| Citations | h-index | i10-index |
-|-----------|---------|-----------|
-| 179 (154 since 2021) | 7 | 6 |
+**EU projects:** SEANERGYS (EuroHPC-JU — MLOps platform architect & lead developer, WP task lead) · DECICE · Graph-Massivizer · EUROPEAN PILOT · REGALE · EPI SGA1
 
 ### Selected Publications
 
-| Title | Venue | Year | Citations |
-|-------|-------|------|-----------|
-| [KubeIntellect: A Modular LLM-Orchestrated Agent Framework for Kubernetes Management](https://arxiv.org/abs/2509.02449) | arXiv | 2025 | — |
-| [M100 ExaData: A Data Collection Campaign on CINECA's Marconi100 Tier-0 Supercomputer](https://www.nature.com/articles/s41597-023-02174-3) | *Nature Scientific Data* | 2023 | 50 |
-| PM100: A Job Power Consumption Dataset of a Large-Scale Production HPC System | SC'23 Workshops | 2023 | 21 |
-| [GRAAFE: Graph Anomaly Anticipation Framework for Exascale HPC Systems](https://github.com/MSKazemi/GRAAFE) | *FGCS* | 2024 | 17 |
-| HazardNet: Thermal Hazard Prediction Framework for Datacenters | *FGCS* | 2024 | — |
-| Multi-level Anomaly Prediction in Tier-0 Datacenter | *ACM Computing Frontiers* | 2022 | — |
+| Title | Venue | Year |
+|-------|-------|------|
+| [KubeIntellect: A Modular LLM-Orchestrated Agent Framework for Kubernetes Management](https://doi.org/10.1007/s10723-026-09837-6) | *Journal of Grid Computing* | 2026 |
+| [M100 ExaData: A Data Collection Campaign on CINECA's Marconi100 Tier-0 Supercomputer](https://www.nature.com/articles/s41597-023-02174-3) | *Nature Scientific Data* | 2023 |
+| PM100: A Job Power Consumption Dataset of a Large-Scale Production HPC System | SC'23 Workshops | 2023 |
+| [GRAAFE: Graph Anomaly Anticipation Framework for Exascale HPC Systems](https://github.com/MSKazemi/GRAAFE) | *FGCS* | 2024 |
+| HazardNet: Thermal Hazard Prediction Framework for Datacenters | *FGCS* | 2024 |
+| Multi-level Anomaly Prediction in Tier-0 Datacenter | *ACM Computing Frontiers* | 2022 |
 
-[All publications →](https://scholar.google.com/citations?user=xP64pZsAAAAJ)
+[Full list, with current citation counts → Google Scholar](https://scholar.google.com/citations?user=xP64pZsAAAAJ) · [ORCID](https://orcid.org/0000-0002-1166-6559) · [dblp](https://dblp.org/pid/282/6179) · [OpenAlex](https://openalex.org/A5013086540)
 
 ---
 
@@ -121,6 +148,10 @@ I build autonomous AI systems that act on infrastructure — not just explain it
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MSKazemi&show_icons=true&hide_border=true&theme=default&count_private=true" height="130" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MSKazemi&layout=compact&hide_border=true&theme=default" height="130" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MSKazemi&show_icons=true&hide_border=true&theme=default&count_private=true" height="130" alt="GitHub stats for MSKazemi" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MSKazemi&layout=compact&hide_border=true&theme=default" height="130" alt="Most-used languages" />
+</p>
+
+<p align="center">
+  <sub>Bologna, Italy · <a href="https://mskazemi.com/">mskazemi.com</a> · <a href="https://mskazemi.com/hire/">available for freelance work</a></sub>
 </p>
