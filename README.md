@@ -78,7 +78,7 @@ work before committing to a project:
 - **MLOps & ML in production** — registry, serving, drift detection, governed retraining, monitoring
 - **Production LLM agents** — tool boundaries, scoped RBAC, human-in-the-loop safety, tracing, audit trails
 
-I hold an EU long-term residence permit issued by Italy, so EU engagements need no visa sponsorship.
+Based in Bologna, Italy — working remotely across the EU on CET.
 
 **→ [Engagements, rates and how it works](https://mskazemi.com/hire/)**
 
