@@ -32,7 +32,7 @@ afterwards that it was right to?**
 
 ---
 
-## Featured Project
+## Featured Projects
 
 ### [KubeIntellect](https://github.com/MSKazemi/kubeintellect) — a human-governed AI SRE for Kubernetes
 
@@ -53,6 +53,24 @@ afterwards that it was right to?**
 - Modular domain agents: logs, metrics, RBAC, lifecycle, scheduling, exec, proxy
 - **Peer-reviewed** — *Journal of Grid Computing* (2026), [10.1007/s10723-026-09837-6](https://doi.org/10.1007/s10723-026-09837-6)
 
+### [YazSes](https://github.com/MSKazemi/yazses) — offline voice dictation that never phones home
+
+> Hold a key, speak, release. Speech-to-text runs entirely on your own CPU and the words are typed
+> into whatever window has focus — editor, browser, terminal, a remote SSH session. No cloud, no
+> account, no subscription.
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/MSKazemi/yazses)
+[![faster-whisper](https://img.shields.io/badge/faster--whisper-5e35b1?style=flat)](https://github.com/MSKazemi/yazses)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)](https://github.com/MSKazemi/yazses)
+[![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/MSKazemi/yazses/blob/main/LICENSE)
+
+- **Works on Wayland**, where most dictation tools silently fail — injection happens at the kernel
+  uinput layer, below the compositor, so GNOME, KDE, sway and Hyprland all behave the same
+- **Accuracy measured, not asserted**: 2.59% WER on LibriSpeech test-clean (`small.en`), 4.07% with
+  the default `base.en` — [method and repro commands published](https://mskazemi.com/yazses/benchmarks.html)
+- Also transcribes recordings and captures whole meetings with **speaker labels**, same install
+- Built in the open by outside contributors — [good first issues are tagged and waiting](https://github.com/MSKazemi/yazses/issues?q=is%3Aopen+label%3A%22good+first+issue%22)
+
 ---
 
 ## Other Projects
@@ -60,7 +78,6 @@ afterwards that it was right to?**
 | Project | What it does | Evidence | Stack |
 |---|---|---|---|
 | **[NovaFabric](https://github.com/MSKazemi/novafabric)** | A time machine for AI systems — capture, replay, diff and audit any agent or HPC run, with no code changes. Self-hosted. | Apache-2.0 · experimental · [novafabric.ai](https://novafabric.ai) | Python, OpenTelemetry |
-| **[YazSes](https://github.com/MSKazemi/yazses)** | Push-to-talk voice dictation for Linux, macOS and Windows. Hold a key, speak, release — on-device speech-to-text types into any app. Also transcribes recordings and labels meeting speakers. | Fully offline **by default** · CPU-only, no GPU · Apache-2.0 · outside contributors merging PRs | Python, faster-whisper |
 | **[AOBench](https://github.com/MSKazemi/aobench)** | Benchmark for LLM agents doing real HPC operations work. Role-aware and permission-enforced: a policy violation hard-fails the task, however correct the answer looked. | 88 tasks (10 categories × 5 roles) · 29 environment bundles, 6 from real Marconi100 telemetry · [archived with a DOI](https://doi.org/10.5281/zenodo.21854863) · paper under review | Python, MCP, Slurm |
 | **[ExaMLOps](https://github.com/MSKazemi/ExaMLOps)** | End-to-end MLOps platform for HPC, built for the EuroHPC **SEANERGYS** project. Any of the sixteen consortium partners registers a model; the platform trains, versions, governs and serves it. Architect and lead developer. | In production at LuxProvide (MeluXina) · train → version → govern → serve, behind a sysadmin approval gate | Prefect, MLflow, Ray Serve, Slurm, FastAPI, React |
 | **[kube-q](https://github.com/MSKazemi/kubeintellect/tree/main/v4/packages/kube-q)** | CLI and Python SDK for KubeIntellect — `pip install kube-q` | Streaming responses, Rich TUI · AGPL-3.0 | Python |
