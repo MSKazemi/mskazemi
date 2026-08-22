@@ -2,12 +2,12 @@
 
 <p align="center">
   <b>AI Infrastructure · AI SRE &amp; AIOps · MLOps · HPC</b><br/>
-  Research Fellow, University of Bologna · Bologna, Italy
+  AI Infrastructure Engineer · Research Fellow, University of Bologna · Bologna, Italy
 </p>
 
 <p align="center">
   <a href="https://mskazemi.com/"><img src="https://img.shields.io/badge/Website-mskazemi.com-222222?style=flat&logo=googlechrome&logoColor=white" alt="Website" /></a>
-  <a href="https://mskazemi.com/hire/"><img src="https://img.shields.io/badge/Available%20for%20freelance-remote%20·%20EU-3FD79A?style=flat" alt="Available for freelance work, remote across the EU" /></a>
+  <a href="https://mskazemi.com/hire/"><img src="https://img.shields.io/badge/Open%20to-full--time%20·%20contract%20·%20freelance-3FD79A?style=flat" alt="Open to full-time, contract and freelance work, remote across the EU" /></a>
   <a href="https://www.linkedin.com/in/mskazemi/"><img src="https://img.shields.io/badge/LinkedIn-mskazemi-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://scholar.google.com/citations?user=xP64pZsAAAAJ"><img src="https://img.shields.io/badge/Google-Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
   <a href="https://orcid.org/0000-0002-1166-6559"><img src="https://img.shields.io/badge/ORCID-0000--0002--1166--6559-A6CE39?style=flat&logo=orcid&logoColor=white" alt="ORCID" /></a>
@@ -28,7 +28,7 @@ That background is why my systems ask before they act. Everything below is one a
 question: **how much of an operator's judgement can a machine take over, and how do you prove
 afterwards that it was right to?**
 
-📍 Bologna, Italy · remote across the EU &nbsp;·&nbsp; 🧭 [mskazemi.com](https://mskazemi.com/) &nbsp;·&nbsp; 💼 [available for freelance work](https://mskazemi.com/hire/)
+📍 Bologna, Italy · remote across the EU &nbsp;·&nbsp; 🧭 [mskazemi.com](https://mskazemi.com/) &nbsp;·&nbsp; 💼 [open to full-time · contract · freelance](https://mskazemi.com/hire/)
 
 ---
 
@@ -86,9 +86,9 @@ afterwards that it was right to?**
 
 ---
 
-## Available for freelance work
+## Open to full-time, contract and freelance work
 
-Remote across the EU, in three areas — each starting with a fixed-price audit so you can see the
+Remote across the EU. For contract and freelance engagements, three areas — each starting with a fixed-price audit so you can see the
 work before committing to a project:
 
 - **Kubernetes reliability & AIOps** — health-checks, observability, hardening, incident root-cause analysis
