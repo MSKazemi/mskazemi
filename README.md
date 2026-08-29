@@ -15,9 +15,10 @@ I build **autonomous AI that acts on infrastructure — with a human at the gate
 
 I design and operate the platforms that let AI agents and ML models run in production without
 anyone losing control of them: approval gates, scoped RBAC, model registries, replay and audit
-trails. I came to it the unusual way round — seven years as IT and network administrator of a
-combined-cycle power plant of more than 1,000 MW, where there is no staging environment and a bad
-change measures in megawatts, then a PhD in high-performance computing.
+trails. I came to it the unusual way round — nearly nine years in enterprise IT and network
+operations, six of them as IT and network administrator of a combined-cycle power plant of more
+than 1,000 MW, where there is no staging environment and a bad change measures in megawatts, then
+a PhD in high-performance computing.
 
 📍 Bologna, Italy · remote across the EU &nbsp;·&nbsp; 🧭 [mskazemi.com](https://mskazemi.com/) &nbsp;·&nbsp; 💼 [open to full-time · contract · freelance](https://mskazemi.com/hire/)
 
