@@ -1,8 +1,8 @@
 <h1 align="center">Mohsen Seyedkazemi Ardebili</h1>
 
 <p align="center">
-  <b>AI Platform &amp; Agentic AI Infrastructure Engineer</b><br/>
-  Agentic AI · MLOps/LLMOps · Kubernetes &amp; HPC · Research Fellow, University of Bologna
+  <b>AI Platform &amp; MLOps Engineer · Agentic AI Systems on Kubernetes</b><br/>
+  Agentic AI · MLOps/LLMOps · Kubernetes &amp; HPC · AI SRE / AIOps
 </p>
 
 <p align="center">
@@ -49,9 +49,11 @@ a PhD in high-performance computing.
 | **Proof** | Peer-reviewed in the *Journal of Grid Computing* (2026), [10.1007/s10723-026-09837-6](https://doi.org/10.1007/s10723-026-09837-6) · [live demo](https://kubeintellect.com/demo) · `pip install kubeintellect` |
 
 That it acts, behind a gate, is the whole point — it is what separates it from a chat window next to
-a terminal. Domain agents cover logs, metrics, RBAC, lifecycle, scheduling, exec and proxy; the
-supervisor is a LangGraph state machine with PostgreSQL checkpoints, and a code-generator agent
-writes and validates new tools at runtime with registration routed through the same human approval.
+a terminal. The shipping implementation is a LangGraph supervisor with PostgreSQL checkpoints that
+works from live kubectl, Helm, Prometheus and Loki evidence, routing every mutating action through
+human approval. The published architecture went further still — a code-generator agent that wrote
+and validated new tools at runtime; that was evaluated in the paper and deliberately dropped when
+the system was simplified for production.
 
 `Python` · `LangGraph` · `FastAPI` · `Kubernetes` · `PostgreSQL`
 
