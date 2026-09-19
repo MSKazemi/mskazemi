@@ -34,7 +34,6 @@ a PhD in high-performance computing.
 |---|---|
 | **Problem** | Sixteen partners on a EuroHPC consortium each needed to train, version, govern and serve models on a Tier-0 supercomputer — with no shared platform to do it on. |
 | **What I built** | An end-to-end MLOps platform: a partner registers a model, the platform trains, versions, governs and serves it, behind a sysadmin approval gate. |
-| **Proof** | In production at LuxProvide (MeluXina), for the EuroHPC **SEANERGYS** project. |
 
 `Prefect` · `MLflow` · `Ray Serve` · `Slurm` · `FastAPI` · `React`
 
