@@ -1,8 +1,8 @@
 <h1 align="center">Mohsen Seyedkazemi Ardebili</h1>
 
 <p align="center">
-  <b>AI Platform &amp; MLOps Engineer · Agentic AI Systems on Kubernetes</b><br/>
-  Agentic AI · MLOps/LLMOps · Kubernetes &amp; HPC · AI SRE / AIOps
+  <b>AI Platform &amp; Agentic Systems Engineer · Independent Consultant</b><br/>
+  Agentic AI · AI Platforms · MLOps/LLMOps · Kubernetes/OpenShift · HPC
 </p>
 
 <p align="center">
@@ -75,7 +75,7 @@ the system was simplified for production.
 | Project | What it does | Evidence | Stack |
 |---|---|---|---|
 | **[YazSes](https://github.com/MSKazemi/yazses)** | Offline voice dictation that never phones home. Hold a key, speak, release — speech-to-text runs on your own CPU and the words are typed into whatever window has focus. **Works on Wayland**, where most dictation tools silently fail. | Apache-2.0 · cross-platform · built in the open by outside contributors, [good first issues tagged](https://github.com/MSKazemi/yazses/issues?q=is%3Aopen+label%3A%22good+first+issue%22) · [measured accuracy, published method](https://mskazemi.com/yazses/benchmarks.html) | Python, faster-whisper, Linux/macOS/Windows |
-| **[NovaFabric](https://github.com/MSKazemi/novafabric)** | A time machine for AI systems — capture, replay, diff and audit any agent or HPC run, with no code changes. Self-hosted. | Apache-2.0 · experimental · [novafabric.ai](https://novafabric.ai) | Python, OpenTelemetry |
+| **[NovaFabric](https://github.com/MSKazemi/novafabric)** | Open-source, self-hosted execution capsules for AI and HPC workloads — capture, seal, replay, structural diff, lineage and cryptographic evidence, with no application-code changes. | Apache-2.0 · beta · [novafabric.ai](https://novafabric.ai) | Python, OpenTelemetry, Kubernetes, SLURM |
 | **[idkmesh](https://github.com/MSKazemi/idkmesh)** | Verified coordination for human + AI teams: work is split into bounded units, every completed candidate goes through independent verification, and only verified evidence gets integrated — never a worker's self-report. Self-hosting its own development as the first proving ground. | Apache-2.0 · active · [good first issues tagged](https://github.com/MSKazemi/idkmesh/issues?q=is%3Aissue+state%3Aopen+label%3A%22good+first+issue%22) | Python, GitHub Actions |
 | **[kube-q](https://github.com/MSKazemi/kubeintellect/tree/main/v4/packages/kube-q)** | CLI and Python SDK for KubeIntellect — `pip install kube-q` | Streaming responses, Rich TUI · AGPL-3.0 | Python |
 
@@ -126,7 +126,7 @@ PC member: PDP 2025 · PDP 2026 · AsHES 2026.
 
 ## Two ways to work with me
 
-**Hiring for AI Platform · Agentic AI · MLOps/LLMOps · Kubernetes?**
+**Hiring for AI Platform · Agentic Systems · MLOps/LLMOps · Kubernetes/OpenShift?**
 Remote across the EU, on CET. Full background and experience on
 **[LinkedIn](https://www.linkedin.com/in/mskazemi/)** — or email
 **[mohsen@mskazemi.com](mailto:mohsen@mskazemi.com)**.
