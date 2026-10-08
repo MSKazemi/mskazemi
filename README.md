@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://mskazemi.com/"><img src="https://img.shields.io/badge/Website-mskazemi.com-222222?style=flat&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <a href="https://www.linkedin.com/in/mskazemi/"><img src="https://img.shields.io/badge/LinkedIn-mskazemi-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://mskazemi.com/hire/"><img src="https://img.shields.io/badge/Open%20to-full--time%20·%20contract%20·%20freelance-3FD79A?style=flat" alt="Open to full-time, contract and freelance work, remote across the EU" /></a>
+  <a href="https://mskazemi.com/hire/"><img src="https://img.shields.io/badge/Open%20to-full--time%20·%20contract%20·%20freelance-3FD79A?style=flat" alt="Open to full-time, contract and freelance opportunities, remote across Europe and internationally" /></a>
 </p>
 
 I build **autonomous AI that acts on infrastructure — with a human at the gate.**
@@ -20,7 +20,7 @@ operations, six of them as IT and network administrator of a combined-cycle powe
 than 1,000 MW, where there is no staging environment and a bad change measures in megawatts, then
 a PhD in high-performance computing.
 
-📍 Bologna, Italy · remote across the EU &nbsp;·&nbsp; 🧭 [mskazemi.com](https://mskazemi.com/) &nbsp;·&nbsp; 💼 [open to full-time · contract · freelance](https://mskazemi.com/hire/)
+📍 Based in Italy · remote across Europe & internationally &nbsp;·&nbsp; 🧭 [mskazemi.com](https://mskazemi.com/) &nbsp;·&nbsp; 💼 [open to full-time · contract · freelance](https://mskazemi.com/hire/)
 
 ---
 
@@ -127,7 +127,8 @@ PC member: PDP 2025 · PDP 2026 · AsHES 2026.
 ## Two ways to work with me
 
 **Hiring for AI Platform · Agentic Systems · MLOps/LLMOps · Kubernetes/OpenShift?**
-Remote across the EU, on CET. Full background and experience on
+Based in Italy; available for remote roles across Europe and internationally, with
+working-hour overlap by arrangement (Europe/Rome, CET/CEST). Background and experience on
 **[LinkedIn](https://www.linkedin.com/in/mskazemi/)** — or email
 **[mohsen@mskazemi.com](mailto:mohsen@mskazemi.com)**.
 
