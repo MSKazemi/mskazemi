@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">Mohsen Seyedkazemi Ardebili: AI Platform and Agentic Systems Engineer</title>
+  <desc id="d">Autonomous AI that acts on infrastructure, with a human at the gate. An AI agent gathers evidence, a human approval gate decides, and only then does the action reach the cluster; every run is kept for audit and replay.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f3f6fb"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0969da"/><stop offset="1" stop-color="#1a7f37"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#e6ebf1" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.55" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1200" height="300" rx="14"/></clipPath>
+    <mask id="gridMask"><rect width="1200" height="300" fill="url(#fade)"/></mask>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .flow { stroke-dasharray: 6 8; animation: flow 1.6s linear infinite; }
+    .held { stroke-dasharray: 6 8; animation: flow 1.6s linear infinite; animation-delay: .8s; opacity: .55; }
+    .pulse { transform-origin: 958px 130px; animation: pulse 2.4s ease-out infinite; }
+    @keyframes flow { to { stroke-dashoffset: -28; } }
+    @keyframes pulse { 0% { transform: scale(1); opacity: .55; } 100% { transform: scale(1.9); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .flow, .held, .pulse { animation: none; } }
+  </style>
+
+  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="14" fill="url(#grid)" mask="url(#gridMask)"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="14" fill="none" stroke="#d0d7de"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)" clip-path="url(#round)"/>
+
+  <!-- left: positioning -->
+  <text x="56" y="70" class="mono" font-size="14" letter-spacing="2.5" fill="#0969da">AGENTIC SYSTEMS · AI PLATFORMS · MLOPS · HPC</text>
+  <text x="56" y="124" class="sans" font-size="40" font-weight="700" fill="#1f2328">Autonomous AI that acts</text>
+  <text x="56" y="172" class="sans" font-size="40" font-weight="700" fill="#1f2328">on infrastructure —</text>
+  <text x="56" y="220" class="sans" font-size="40" font-weight="700" fill="url(#accent)">with a human at the gate.</text>
+  <text x="56" y="262" class="mono" font-size="14" fill="#59636e">Kubernetes · OpenShift · LangGraph · MCP · MLflow · Ray Serve · Slurm</text>
+
+  <!-- right: agent -> evidence -> gate -> cluster -->
+  <g class="mono" font-size="13" text-anchor="middle">
+    <rect x="690" y="106" width="96" height="48" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+    <text x="738" y="135" fill="#1f2328">AI agent</text>
+    <rect x="810" y="106" width="96" height="48" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+    <text x="858" y="135" fill="#1f2328">evidence</text>
+    <rect x="1010" y="106" width="110" height="48" rx="10" fill="#ffffff" stroke="#1a7f37"/>
+    <text x="1065" y="135" fill="#1f2328">cluster</text>
+
+    <path class="flow" d="M786 130H810" stroke="#0969da" stroke-width="2.5" fill="none"/>
+    <path class="flow" d="M906 130H932" stroke="#0969da" stroke-width="2.5" fill="none"/>
+    <path class="held" d="M984 130H1010" stroke="#1a7f37" stroke-width="2.5" fill="none"/>
+
+    <circle class="pulse" cx="958" cy="130" r="26" fill="none" stroke="#9a6700" stroke-width="2"/>
+    <circle cx="958" cy="130" r="26" fill="#ffffff" stroke="#9a6700" stroke-width="2.5"/>
+    <!-- padlock -->
+    <path d="M950 128v-6a8 8 0 0 1 16 0v6" fill="none" stroke="#9a6700" stroke-width="2.5"/>
+    <rect x="946" y="127" width="24" height="17" rx="3" fill="#9a6700"/>
+    <text x="958" y="186" font-size="12" fill="#9a6700">human approval</text>
+
+    <path d="M738 154V226H1065V154" fill="none" stroke="#59636e" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <text x="902" y="252" font-size="12" fill="#59636e">every run kept · audit · replay · RBAC</text>
+  </g>
+</svg>
