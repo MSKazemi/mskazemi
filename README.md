@@ -102,7 +102,7 @@ for production.
 |---|---|
 | **Problem** | Teams gate AI-agent work behind review panels — LLM judges, CI checks, human reviewers — and count every vote as independent. When their errors are correlated, a panel can be worth far fewer votes than it has members, and bad changes pass. |
 | **What I built** | An open-source toolkit for AI-agent verification: a worker's self-report never counts as acceptance, independent verifiers check every result against versioned task contracts with bound provenance, and `idkmesh gate-audit` measures how many independent votes a review panel is really worth and audits review gates for correlated errors — with reproducible evidence for every accept/reject. |
-| **Proof** | Apache-2.0 · installable `idkmesh` CLI · every claim tracked in a CI-validated [Capability Truth Matrix](https://github.com/MSKazemi/idkmesh/blob/main/docs/CAPABILITY_MATRIX.md) · built in the open, [good first issues tagged](https://github.com/MSKazemi/idkmesh/issues?q=is%3Aissue+state%3Aopen+label%3A%22good+first+issue%22) |
+| **Proof** | Measured, not simulated: in a 25-verifier panel — each verifier a program, 72 candidates with ground truth from hidden tests — majority vote was worth an effective **1.00 of 25** independent votes ([E017](https://github.com/MSKazemi/idkmesh/blob/main/experiments/E017-item-difficulty-and-quorum.md)) · Apache-2.0 · installable `idkmesh` CLI · every claim tracked in a CI-validated [Capability Truth Matrix](https://github.com/MSKazemi/idkmesh/blob/main/docs/CAPABILITY_MATRIX.md) · built in the open, [good first issues tagged](https://github.com/MSKazemi/idkmesh/issues?q=is%3Aissue+state%3Aopen+label%3A%22good+first+issue%22) |
 
 `Python` · `MCP` · `A2A` · `LLM-as-a-judge` · `GitHub Actions`
 
