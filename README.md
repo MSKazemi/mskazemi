@@ -34,14 +34,15 @@ megawatts, then a **PhD in high-performance computing**.
 
 ## What I build: governed AI, from model to action
 
-My four flagship projects each cover one stage of the same problem — putting AI into production
+My five flagship projects each cover one stage of the same problem — putting AI into production
 on real infrastructure **without giving up control**:
 
 ```mermaid
 flowchart LR
     A["<b>Train · version · serve</b><br/>MLOps on HPC<br/><i>ExaMLOps</i>"] --> B["<b>Investigate · propose · act</b><br/>behind human approval<br/><i>KubeIntellect</i>"]
     B --> C["<b>Evaluate permissions</b><br/>policy violation = fail<br/><i>AOBench</i>"]
-    C --> D["<b>Replay · diff · audit</b><br/>evidence for every run<br/><i>NovaFabric</i>"]
+    C --> V["<b>Verify before merge</b><br/>independent verifiers<br/><i>idkmesh</i>"]
+    V --> D["<b>Replay · diff · audit</b><br/>evidence for every run<br/><i>NovaFabric</i>"]
 ```
 
 ---
@@ -93,6 +94,18 @@ for production.
 
 `Python` · `MCP` · `Slurm` · `RBAC`
 
+### ✅ [idkmesh](https://github.com/MSKazemi/idkmesh) — verification infrastructure for AI agents
+
+**My role:** creator and maintainer.
+
+|  |  |
+|---|---|
+| **Problem** | Teams gate AI-agent work behind review panels — LLM judges, CI checks, human reviewers — and count every vote as independent. When their errors are correlated, a panel can be worth far fewer votes than it has members, and bad changes pass. |
+| **What I built** | An open-source toolkit for AI-agent verification: a worker's self-report never counts as acceptance, independent verifiers check every result against versioned task contracts with bound provenance, and `idkmesh gate-audit` measures how many independent votes a review panel is really worth and audits review gates for correlated errors — with reproducible evidence for every accept/reject. |
+| **Proof** | Apache-2.0 · installable `idkmesh` CLI · every claim tracked in a CI-validated [Capability Truth Matrix](https://github.com/MSKazemi/idkmesh/blob/main/docs/CAPABILITY_MATRIX.md) · built in the open, [good first issues tagged](https://github.com/MSKazemi/idkmesh/issues?q=is%3Aissue+state%3Aopen+label%3A%22good+first+issue%22) |
+
+`Python` · `MCP` · `A2A` · `LLM-as-a-judge` · `GitHub Actions`
+
 ---
 
 ## Open-source products
@@ -101,7 +114,6 @@ for production.
 |---|---|---|---|
 | **[NovaFabric](https://github.com/MSKazemi/novafabric)** | Open-source, self-hosted replay and evidence infrastructure for AI agents and agentic systems — captures agent executions as portable Run Capsules for replay, behavioral/structural diff, lineage, cryptographic provenance, assurance and audit. | Apache-2.0 · beta · [novafabric.ai](https://novafabric.ai) | Python, OpenTelemetry, Kubernetes, SLURM |
 | **[YazSes](https://github.com/MSKazemi/yazses)** | Offline-by-default voice dictation — nothing leaves your machine by default. Hold a key, speak, release — speech-to-text runs on your own CPU and the words are typed into whatever window has focus. **Works on Wayland**, where most dictation tools silently fail. | Apache-2.0 · cross-platform · built in the open by outside contributors, [good first issues tagged](https://github.com/MSKazemi/yazses/issues?q=is%3Aopen+label%3A%22good+first+issue%22) · [measured accuracy, published method](https://mskazemi.com/yazses/benchmarks.html) | Python, faster-whisper, Linux/macOS/Windows |
-| **[idkmesh](https://github.com/MSKazemi/idkmesh)** | Verified coordination for human + AI teams: work is split into bounded units, every completed candidate goes through independent verification, and only verified evidence gets integrated — never a worker's self-report. Self-hosting its own development as the first proving ground. | Apache-2.0 · active · [good first issues tagged](https://github.com/MSKazemi/idkmesh/issues?q=is%3Aissue+state%3Aopen+label%3A%22good+first+issue%22) | Python, GitHub Actions |
 | **[kube-q](https://github.com/MSKazemi/kubeintellect/tree/main/v4/packages/kube-q)** | CLI and Python SDK for KubeIntellect — `pip install kube-q` | Streaming responses, Rich TUI · AGPL-3.0 | Python |
 
 ## Research systems — ML on real supercomputer telemetry
