@@ -34,15 +34,14 @@ megawatts, then a **PhD in high-performance computing**.
 
 ## What I build: governed AI, from model to action
 
-My five flagship projects each cover one stage of the same problem — putting AI into production
-on real infrastructure **without giving up control**:
+My four featured public projects address complementary parts of deploying and governing
+agentic AI on real infrastructure **without giving up control**:
 
 ```mermaid
 flowchart LR
-    A["<b>Train · version · serve</b><br/>MLOps on HPC<br/><i>ExaMLOps</i>"] --> B["<b>Investigate · propose · act</b><br/>behind human approval<br/><i>KubeIntellect</i>"]
-    B --> C["<b>Evaluate permissions</b><br/>policy violation = fail<br/><i>AOBench</i>"]
-    C --> V["<b>Verify before merge</b><br/>independent verifiers<br/><i>idkmesh</i>"]
-    V --> D["<b>Replay · diff · audit</b><br/>evidence for every run<br/><i>NovaFabric</i>"]
+    A["<b>Investigate · propose · act</b><br/>behind human approval<br/><i>KubeIntellect</i>"] --> B["<b>Evaluate permissions</b><br/>policy violation = fail<br/><i>AOBench</i>"]
+    B --> C["<b>Verify before merge</b><br/>independent verifiers<br/><i>idkmesh</i>"]
+    C --> D["<b>Replay · diff · audit</b><br/>portable run evidence<br/><i>NovaFabric</i>"]
 ```
 
 ---
@@ -71,16 +70,17 @@ for production.
 
 `Python` · `LangGraph` · `FastAPI` · `Kubernetes` · `PostgreSQL` · `Prometheus` · `Loki`
 
-### 🏭 [ExaMLOps](https://github.com/MSKazemi/ExaMLOps) — production MLOps platform for HPC and supercomputers
+### 🔐 [NovaFabric](https://github.com/MSKazemi/novafabric) — replay and evidence infrastructure for AI agents
 
-**My role:** architect and lead developer.
+**My role:** creator and maintainer.
 
 |  |  |
 |---|---|
-| **Problem** | Sixteen partners on a EuroHPC consortium each needed to train, version, govern and serve models on a Tier-0 supercomputer — with no shared platform to do it on. |
-| **What I built** | An end-to-end MLOps platform: a partner registers a model, the platform trains, versions, governs and serves it, behind a sysadmin approval gate. |
+| **Problem** | After an AI agent runs, reproducing its behavior, comparing executions and preserving independently verifiable evidence can be difficult. |
+| **What I built** | An open-source, self-hosted system that captures agent executions as portable Run Capsules for replay, behavioral/structural diff, lineage, optional cryptographic sealing and audit evidence workflows. |
+| **Proof** | [Website](https://novafabric.ai) · [documentation](https://novafabric.ai/docs/) · [7-minute demo](https://youtu.be/uQatmJIJI68) · [research preprint](https://arxiv.org/abs/2609.12582) · `pip install novafabric` · Apache-2.0 · beta/pre-v1 |
 
-`Prefect` · `MLflow` · `Ray Serve` · `Slurm` · `FastAPI` · `React`
+`Python` · `OpenTelemetry` · `Kubernetes` · `SLURM`
 
 ### 🛡️ [AOBench](https://github.com/MSKazemi/aobench) — evaluation and permission infrastructure for AI agents
 
@@ -112,7 +112,6 @@ for production.
 
 | Project | What it does | Evidence | Stack |
 |---|---|---|---|
-| **[NovaFabric](https://github.com/MSKazemi/novafabric)** | Open-source, self-hosted replay and evidence infrastructure for AI agents and agentic systems — captures agent executions as portable Run Capsules for replay, behavioral/structural diff, lineage, cryptographic provenance, assurance and audit. | Apache-2.0 · beta · [novafabric.ai](https://novafabric.ai) | Python, OpenTelemetry, Kubernetes, SLURM |
 | **[YazSes](https://github.com/MSKazemi/yazses)** | Offline-by-default voice dictation — nothing leaves your machine by default. Hold a key, speak, release — speech-to-text runs on your own CPU and the words are typed into whatever window has focus. **Works on Wayland**, where most dictation tools silently fail. | Apache-2.0 · cross-platform · built in the open by outside contributors, [good first issues tagged](https://github.com/MSKazemi/yazses/issues?q=is%3Aopen+label%3A%22good+first+issue%22) · [measured accuracy, published method](https://mskazemi.com/yazses/benchmarks.html) | Python, faster-whisper, Linux/macOS/Windows |
 | **[kube-q](https://github.com/MSKazemi/kubeintellect/tree/main/v4/packages/kube-q)** | CLI and Python SDK for KubeIntellect — `pip install kube-q` | Streaming responses, Rich TUI · AGPL-3.0 | Python |
 
