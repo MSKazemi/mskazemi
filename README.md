@@ -225,3 +225,9 @@ Each engagement starts with a fixed-price audit, so you see the work before comm
     <a href="https://orcid.org/0000-0002-1166-6559">ORCID</a>
   </sub>
 </p>
+
+<!-- legal-notice: start -->
+### Legal notice and responsible use
+
+The materials in this repository are made available without warranties to the extent permitted by applicable law. **Please read the [Disclaimer and Responsible-Use Notice](DISCLAIMER.md)** before relying on or deploying them. This notice does not change any existing software license or limit rights that cannot legally be waived.
+<!-- legal-notice: end -->
