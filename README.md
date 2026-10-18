@@ -23,7 +23,7 @@ I design and operate the platforms that let AI agents and ML models run in produ
 losing control of them: approval gates, scoped RBAC, model registries, replay and audit trails.
 I came to it the unusual way round — **six years running the IT and networks of a 1,000+ MW
 combined-cycle power plant**, where there is no staging environment and a bad change measures in
-megawatts, then a **PhD in high-performance computing**.
+megawatts, then a **PhD in Electronics, Telecommunications, and Information Technologies Engineering** (University of Bologna).
 
 > [!NOTE]
 > **Now:** Independent Consultant — AI Platform &amp; MLOps Engineer, with a current engagement for a
@@ -155,7 +155,7 @@ for production.
 
 ## Research
 
-**PhD:** Design, Analysis, and Management of High-Performance Computing Systems · University of Bologna (2018–2022)
+**Ph.D. in Electronics, Telecommunications, and Information Technologies Engineering** · University of Bologna (2018–2022) · thesis: *Monitoring and Prediction of Thermal Emergencies in High Performance Computing Systems*
 
 | Selected peer-reviewed work | Venue | Year |
 |---|---|---|
